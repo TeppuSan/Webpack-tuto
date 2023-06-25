@@ -1,9 +1,13 @@
 {
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack serve",
+    "watch": "webpack --watch"
+
   },
   "devDependencies": {
     "webpack": "^5.88.0",
-    "webpack-cli": "^5.1.4"
+    "webpack-cli": "^5.1.4",
+    "webpack-dev-server": "^4.15.1"
   }
 }
